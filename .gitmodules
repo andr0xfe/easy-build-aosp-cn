@@ -1,0 +1,3 @@
+[submodule "docker-aosp"]
+	path = docker-aosp
+	url = https://github.com/tiann/docker-aosp.git
