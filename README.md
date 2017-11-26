@@ -16,6 +16,9 @@ cd /vagrant/docker-aosp/tests
 bash ./build-*.sh
 ```
 
+### tips
+a. 在windows上，不要将AOSP的磁盘设置到共享文件目录，至少不要设置到NTFS的共享目录[别的格式未经过测试]，因为AOSP 7.1+的部分代码文件名包含':'等特殊字符，windows ntfs不支持创建此类文件，会导致下载源码失败。
+
 ### dependents
 [vagrant](https://www.vagrantup.com/)  
 [virtualbox](https://www.virtualbox.org/)
