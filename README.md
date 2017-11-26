@@ -11,9 +11,7 @@ cd easy-build-aosp-cn
 vagrant up && vagrant ssh
 
 #in guest ssh
-export AOSP_VOL=~/AOSP
-cd /vagrant/docker-aosp/tests
-bash ./build-*.sh
+bash ./vagrant/docker-aosp/tests/build-*.sh
 ```
 
 ### tips
