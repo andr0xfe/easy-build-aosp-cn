@@ -11,7 +11,7 @@ cd easy-build-aosp-cn
 vagrant up && vagrant ssh
 
 #in guest ssh
-bash ./vagrant/docker-aosp/tests/build-*.sh
+bash /vagrant/docker-aosp/tests/build-*.sh
 ```
 
 ### tips
